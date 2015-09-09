@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
@@ -55,9 +56,9 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         switch(v.getId()) {
 
             case R.id.btStart:
-                Intent i2 = new Intent(getApplicationContext(), Fase1.class);
+                Intent i6 = new Intent(getApplicationContext(), JogoActivity.class);
                 //i2.putExtra("fase",1);
-                startActivity(i2);
+                startActivity(i6);
                 break;
 
             case R.id.btInfo:

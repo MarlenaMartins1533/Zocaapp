@@ -9,23 +9,24 @@ import android.view.View;
 import android.widget.Button;
 
 
-public class InformacoesActivity extends ActionBarActivity implements View.OnClickListener{
+public class JogoActivity extends ActionBarActivity implements View.OnClickListener{
 
-    Button btHome;
+    Button btVoltar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_info);
+        setContentView(R.layout.activity_jogo);
 
-        btHome = (Button) findViewById(R.id.btHome);
-        btHome.setOnClickListener(this);
+        btVoltar = (Button) findViewById(R.id.btVoltar);
+        btVoltar.setOnClickListener(this);
+
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_info, menu);
+        getMenuInflater().inflate(R.menu.menu_jogo, menu);
         return true;
     }
 
@@ -48,10 +49,10 @@ public class InformacoesActivity extends ActionBarActivity implements View.OnCli
     public void onClick(View v) {
 
         switch(v.getId()) {
-            case R.id.btHome:
-                Intent i5 = new Intent(getApplicationContext(), MainActivity.class);
+            case R.id.btVoltar:
+                Intent i6= new Intent(getApplicationContext(), MainActivity.class);
                 //i2.putExtra("title",title);
-                startActivity(i5);
+                startActivity(i6);
                 break;
         }
 
