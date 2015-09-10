@@ -8,17 +8,22 @@
    <string name="contatosequipe"> marlenamotamartins@gmail.com e j.vidalnunes@gmail.com</string>
    <string name="contatos">Contatos: Email: zocagames@gmail.com / Facebook: Zoca MMzoca / Blog: http://zocagames.blogspot.com.br/</string>-->
 
-
-
-    <string name="zocainfo">\n
-        \t\t\t\t\t\t\t\t\t\t\t\t >>> Contatos:\n\n\n
-        \t *Marlena Martins - marlenamotamartins@gmail.com \n
-        \t *Jean Vidal - j.vidalnunes@gmail.com \n\n\n
+    <string name="zocainfo">
+        \t * Marlena Martins\n
+        \t\t\t\t\t\tmarlenamotamartins@gmail.com \n
+        \t * Jean Vidal\n
+        \t\t\t\t\t\t j.vidalnunes@gmail.com \n\n\n\n\n\n\n\n\n\n\n\n\n\n
 
 
         \t\t\t *Email: zocagames@gmail.com \n
         \t\t\t *Facebook: Zoca MMzoca \n
         \t\t\t *Blog: http://zocagames.blogspot.com.br/\n\n\n</string>
+    <string name="title_activity_fase12">Fase12</string>
+    <string name="title_activity_informacoes_activity2">InformacoesActivity2</string>
+    <string name="title_activity_fase_p">FasePActivity</string>
+    <string name="title_activity_jogo">JogoActivity</string>
+    <string name="title_activity_fases">fases</string>
+    <string name="title_activity_win">winActivity</string>
 
 
 </resources>
