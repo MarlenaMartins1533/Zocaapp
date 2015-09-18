@@ -18,13 +18,10 @@
         \t\t\t *Email: zocagames@gmail.com \n
         \t\t\t *Facebook: Zoca MMzoca \n
         \t\t\t *Blog: http://zocagames.blogspot.com.br/\n\n\n</string>
-    <string name="title_activity_fase12">Fase12</string>
-    <string name="title_activity_informacoes_activity2">InformacoesActivity2</string>
-    <string name="title_activity_fase_p">FasePActivity</string>
+
     <string name="title_activity_jogo">JogoActivity</string>
     <string name="title_activity_fases">fases</string>
     <string name="title_activity_win">winActivity</string>
-    <string name="title_activity_main2">Main2Activity</string>
 
 
 </resources>
