@@ -32,6 +32,10 @@
             android:name=".WinActivity"
             android:label="@string/title_activity_win" >
         </activity>
+        <activity
+            android:name=".FasesActivity"
+            android:label="@string/title_activity_fases" >
+        </activity>
     </application>
 
 </manifest>
