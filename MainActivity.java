@@ -3,6 +3,7 @@ package com.example.asus.zocaapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -10,7 +11,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 
-public class MainActivity extends ActionBarActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button btStart;
     Button btInfo;
@@ -56,7 +57,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         switch(v.getId()) {
 
             case R.id.btStart:
-                Intent i6 = new Intent(getApplicationContext(), JogoActivity.class);
+                Intent i6 = new Intent(getApplicationContext(), FasesActivity.class);
                 //i2.putExtra("fase",1);
                 startActivity(i6);
                 break;

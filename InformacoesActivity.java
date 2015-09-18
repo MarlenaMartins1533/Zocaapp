@@ -2,6 +2,7 @@ package com.example.asus.zocaapp;
 
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -9,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 
 
-public class InformacoesActivity extends ActionBarActivity implements View.OnClickListener{
+public class InformacoesActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button btHome;
 

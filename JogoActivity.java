@@ -2,6 +2,7 @@ package com.example.asus.zocaapp;
 
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -9,9 +10,10 @@ import android.view.View;
 import android.widget.Button;
 
 
-public class JogoActivity extends ActionBarActivity implements View.OnClickListener{
+public class JogoActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button btVoltar;
+    Button btWin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +22,9 @@ public class JogoActivity extends ActionBarActivity implements View.OnClickListe
 
         btVoltar = (Button) findViewById(R.id.btVoltar);
         btVoltar.setOnClickListener(this);
+
+        btWin = (Button) findViewById(R.id.btWin);
+        btWin.setOnClickListener(this);
 
     }
 
@@ -53,6 +58,12 @@ public class JogoActivity extends ActionBarActivity implements View.OnClickListe
                 Intent i6= new Intent(getApplicationContext(), MainActivity.class);
                 //i2.putExtra("title",title);
                 startActivity(i6);
+                break;
+
+            case R.id.btWin:
+                Intent i7 = new Intent(getApplicationContext(), WinActivity.class);
+                //i2.putExtra("title",title);
+                startActivity(i7);
                 break;
         }
 
